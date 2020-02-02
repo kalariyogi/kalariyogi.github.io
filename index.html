@@ -5,37 +5,47 @@ title: Kalariyogi
 
 <div class="container-fluid h-100 p-0 main-background-image"
     style="background-image: url('{{site.mainImage | prepend: site.imageurl | prepend: site.baseurl}}');">
-    <div class="row h-50 align-items-center no-gutters">
-        <div class="col-12 p-0 mx-auto text-center image-overlay">          
-            <h1 id="logo">{{site.name}}</h1>            
-        </div>       
+    <div class="row h-100 no-gutters d-none d-md-block">
+        <div class="offset-7 col-5 p-0 text-center image-overlay">
+            <h1 id="logo">{{site.name}}</h1>
+            <div class="p-3" style="color: rgb(255, 248, 232)">
+                <p>Shriram Vakade a.k.a Kalariyogi Shriram has been teaching yoga from the past 4 years and has been a
+                    dedicated yoga practitioner from the age of 21</p>
+                <p>He was guided by his guru who has encouraged him to constantly seek knowledge and spread the
+                    lifestyle of yoga with an aim that its numerous benefits should be accessible to everyone.</p>
+                <p>He has trained 4 batches of students who are now highly inspired yoga teachers toward completion
+                    their TTC. He also has a keen interest in the Indian Yogic martial art form Kalaripayattu which
+                    combines the art of activating and balancing the energy in the body along with techniques of attack
+                    and defense, hence building the agility of the warrior within.</p>
+                </p>
+            </div>
+        </div>
     </div>
-    <div class="row h-50 no-gutters"></div>
 </div>
 
-    <div class="d-flex flex-column h-100">
-        <main role="main" class="flex-shrink-0 pb-3 mb-4 main">
-            <div class="container mt-4">
-                <h1>Workshops</h1>
-                <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2">
-                    {% for workshop in site.workshops %}
-                    <div class="col mb-4">
-                        <div class="card workshop-card">
-                            <img src="{{workshop.image | prepend: site.imageurl | prepend: site.baseurl}}.png"
-                                class="card-img-top" alt="{{workshop.image}}">
-                            <div class="card-body">
-                                <h4 class="card-title">{{ workshop.name }}</h4>
-                                <h5>{{ workshop.workshopDate | date: "%A, %B %-d, %Y" }}</h5>
-                                <p class="card-text">{{ workshop.excerpt | markdownify }}</p>
-                            </div>
-                            <div class="card-footer workshop-card-footer">
-                                <a href="{{ workshop.url }}" class="btn-sm btn-link pull-right workshop-card-btn"
-                                    role="button">Know More</a>
-                            </div>
+<div class="d-flex flex-column h-100">
+    <main role="main" class="flex-shrink-0 pb-3 mb-4 main">
+        <div class="container mt-4">
+            <h1>Workshops</h1>
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2">
+                {% for workshop in site.workshops %}
+                <div class="col mb-4">
+                    <div class="card workshop-card">
+                        <img src="{{workshop.image | prepend: site.imageurl | prepend: site.baseurl}}.png"
+                            class="card-img-top" alt="{{workshop.image}}">
+                        <div class="card-body">
+                            <h4 class="card-title">{{ workshop.name }}</h4>
+                            <h5>{{ workshop.workshopDate | date: "%A, %B %-d, %Y" }}</h5>
+                            <p class="card-text">{{ workshop.excerpt | markdownify }}</p>
+                        </div>
+                        <div class="card-footer workshop-card-footer">
+                            <a href="{{ workshop.url }}" class="btn-sm btn-link pull-right workshop-card-btn"
+                                role="button">Know More</a>
                         </div>
                     </div>
-                    {% endfor %}
                 </div>
+                {% endfor %}
             </div>
-        </main>
-    </div>
+        </div>
+    </main>
+</div>
