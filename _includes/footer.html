@@ -1,0 +1,16 @@
+<footer class="footer fixed-bottom">
+
+    <div class="d-flex justify-content-around">            
+        <div class="row justify-content-center align-self-center">
+            <p class="pl-4 m-0">© 2020 {{site.name}}</p>
+        </div>
+        <div>
+            {% for socialMedia in site.data.socialMedia.socialMedia%}
+            <a class="btn btn-social-icon btn-{{socialMedia.name}}">
+                <span class="fa fa-{{socialMedia.name}}"></span>
+            </a>
+            {% endfor %}               
+        </div>
+    </div>
+    
+</footer>

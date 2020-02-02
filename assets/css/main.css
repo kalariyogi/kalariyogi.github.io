@@ -1,0 +1,55 @@
+body, html {
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    background-color: rgb(255, 248, 232);
+}
+.main-background-image{
+    height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image-overlay{
+    height: 100%;
+   background-color: rgba(0,0,0,0.5);
+}
+.s-navbar{
+    background-color: rgb(255, 248, 232);
+}
+.footer {
+    background-color: rgb(255, 213, 120);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Julius Sans One', sans-serif;
+}
+#logo{
+    font-weight: bold;
+    color: antiquewhite;
+    letter-spacing: 3px;
+}
+.workshop-card{
+    background-color: rgb(232, 193, 144)
+}
+
+.workshop-card-footer{
+    background-color: rgb(208, 169, 120);
+    padding-top: 6px;
+    padding-bottom: 6px
+}
+
+.workshop-card-btn{
+    color: rgb(255, 235, 205);
+    background-color: rgb(152, 128, 100);
+}
+
+.image-bg-color{
+    background-color: rgb(255, 213, 120);
+}

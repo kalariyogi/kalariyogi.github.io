@@ -1,0 +1,14 @@
+---
+layout: default
+title: Workshops
+---
+<h1>Workshops</h1>
+
+<ul>
+  {% for workshop in site.workshops %}
+    <li>
+    <h2><a href="{{ workshop.url }}">{{ workshop.name }}</a></h2>
+      <p>{{ workshop.content | markdownify }}</p>
+    </li>
+  {% endfor %}
+</ul>

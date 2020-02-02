@@ -1,0 +1,18 @@
+<header>
+    <nav class="navbar s-navbar navbar-expand-md navbar-light main-nav">
+        <a id="nav-logo" class="navbar-brand" href="#">{{site.name}}</a>
+        <button class="navbar-toggler navbar-links" type="button" data-toggle="collapse"
+            data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-links" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                {% for navItem in site.data.navigation.navItems%}
+                <li class="nav-item pl-3">
+                    <a class="s-nav-text nav-link" href="{{ navItem.link | prepend: site.baseurl}}">{{navItem.name}}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </nav>
+</header>

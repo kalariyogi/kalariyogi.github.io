@@ -1,0 +1,8 @@
+name: Kalariyoga
+imageurl: /assets/images/
+mainImage: carosel-image-2.jpeg
+collections:
+  workshops:
+    output: true
+  practices:
+    output: true

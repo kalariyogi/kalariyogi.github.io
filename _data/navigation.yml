@@ -1,0 +1,10 @@
+navItems:
+  - type : link
+    name : About
+    link : /about
+  - type : link
+    name : Blog
+    link : /blog
+  - type : link
+    name : Workshops
+    link : /allWorkshops 
