@@ -1,16 +1,27 @@
 navItems:
   - type : link
     name : About
-    link : /about
-  - type : link
+    href : /about
+  - type : dropdown
     name : My Practices
-    link : /practices
+    href : /practices
+    navlinks : 
+      - name : Kalariyoga
+        href : /kalariyoga
+      - name : Kalaripayattu
+        href : /kalaripayattu
+      - name : Traditional Yoga
+        href : /traditionalyoga
+      - name : Sound Meditation-Nada Yoga
+        href : /nadayoga
+      - name : Acroyoga
+        href : /acroyoga
   - type : link
     name : Offerings
-    link : /offerings 
+    href : /offerings 
   - type : link
     name : Workshops
-    link : /allWorkshops 
+    href : /allWorkshops 
   - type : link
     name : Contact
-    link : /contact 
+    href : /contact 

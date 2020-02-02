@@ -7,10 +7,28 @@
         </button>
         <div class="collapse navbar-collapse navbar-links" id="collapsibleNavbar">
             <ul class="navbar-nav">
-                {% for navItem in site.data.navigation.navItems%}
-                <li class="nav-item pl-3">
-                    <a class="s-nav-text nav-link" href="{{ navItem.link | prepend: site.baseurl}}">{{navItem.name}}</a>
-                </li>
+                {% for navItem in site.data.navigation.navItems %}
+                    {% if navItem.type == 'link' %}
+                        {% if page.url contains navItem.href %}
+                            <li class="nav-item active">
+                        {% else %}
+                            <li class="nav-item">
+                        {% endif %}
+                        <a class="s-nav-text nav-link" href="{{ navItem.href | prepend: site.baseurl}}">{{ navItem.name }}</a>                
+                    {% endif %}
+                    {% if navItem.type == 'dropdown' %}
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            {{ navItem.name }}
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">                               
+                        {% for navlink in navItem.navlinks %}                            
+                            <a class="dropdown-item" href="{{navlink.href | prepend: navItem.href}}">{{navlink.name}}</a>
+                        {% endfor %}     
+                        </div>               
+                    {% endif %}
+                        </li>
                 {% endfor %}
             </ul>
         </div>
