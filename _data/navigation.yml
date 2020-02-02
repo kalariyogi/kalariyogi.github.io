@@ -3,8 +3,14 @@ navItems:
     name : About
     link : /about
   - type : link
-    name : Blog
-    link : /blog
+    name : My Practices
+    link : /practices
+  - type : link
+    name : Offerings
+    link : /offerings 
   - type : link
     name : Workshops
     link : /allWorkshops 
+  - type : link
+    name : Contact
+    link : /contact 
