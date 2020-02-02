@@ -3,3 +3,6 @@ _site
 .jekyll-metadata
 x.png
 x.html
+.idea
+.DS_Store
+Gemfile.lock
