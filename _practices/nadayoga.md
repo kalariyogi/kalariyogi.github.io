@@ -9,8 +9,7 @@ While meditating, it’s usually difficult for us to sit motionlessly and focus.
 
 ### WHAT IS SOUND MEDITATION
 
-> “If you want to find the secrets of the universe, think in terms of energy, frequency, and vibration.”
-> -- Nicolas Tesla
+> “If you want to find the secrets of the universe, think in terms of energy, frequency, and vibration.” -- Nicolas Tesla
 
 Sound meditation is an ancient healing practice that uses sounds and vibrations to induce deep meditative states. For thousands of years, sound has been used in ancient cultures to ease anxiety and promote a sense of well being. Many cultures, religions and mystic traditions have celebrated the power of music to induce trance and meditative states to expand one’s consciousness.  Sufi mysticism, Kirtan, gospel singing— even the use of bells and harps at a cathedral.
 

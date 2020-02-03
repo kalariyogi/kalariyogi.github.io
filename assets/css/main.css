@@ -54,3 +54,10 @@ h6 {
 .image-bg-color{
     background-color: rgb(255, 213, 120);
 }
+
+blockquote {
+    border-left: 3px solid rgb(255, 230, 176);
+    background-color: rgb(255, 248, 232);
+    font-style: italic;
+    padding-left: 10px;
+}
