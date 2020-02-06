@@ -3,25 +3,25 @@ layout: default
 title: Kalariyogi
 ---
 
-<div class="container-fluid p-0 main-background-image"
-    style="background-image: url('{{site.mainImage | prepend: site.imageurl | prepend: site.baseurl}}');">
-    <div class="row h-100 no-gutters d-none d-md-block">
-        <div class="offset-7 col-5 p-0 text-center image-overlay">
-            <h1 id="logo">{{site.name}}</h1>
-            <div class="p-3" style="color: rgb(255, 248, 232)">
-                <p>Shriram Vakade a.k.a Kalariyogi Shriram has been teaching yoga from the past 4 years and has been a
-                    dedicated yoga practitioner from the age of 21</p>
-                <p>He was guided by his guru who has encouraged him to constantly seek knowledge and spread the
-                    lifestyle of yoga with an aim that its numerous benefits should be accessible to everyone.</p>
-                <p>He has trained 4 batches of students who are now highly inspired yoga teachers toward completion
-                    their TTC. He also has a keen interest in the Indian Yogic martial art form Kalaripayattu which
-                    combines the art of activating and balancing the energy in the body along with techniques of attack
-                    and defense, hence building the agility of the warrior within.</p>
-                </p>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+    {% for image in site.data.mainPageCarosel.carousel %}
+        <div class="carousel-item">
+            <img class="d-block w-100" src="{{image.src | prepend: site.imageurl | prepend: site.baseurl}}">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>{{image.heading}}</h5>
+                <p>{{image.description}}</p>
             </div>
         </div>
+    {% endfor %}
     </div>
 </div>
+
 
 <div class="d-flex flex-column h-100">
     <main role="main" class="flex-shrink-0 pb-3 mb-4 main">

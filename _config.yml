@@ -1,6 +1,5 @@
 name: KalariYogi
 imageurl: /assets/images/
-mainImage: carosel-image-2.jpeg
 collections:
   workshops:
     output: true
