@@ -20,6 +20,8 @@ Sound Healing experts state that sound meditation not only affects a great deal 
 Singing Bowls are used for stimulating brain waves. Brain waves are patterns of electrical activity occurring in the brain. They are crucial to all aspects of brain functioning: thoughts, emotions, and behaviors. The pattern of brain waves changes depending on our level of consciousness and cognitive processing. For example, when we feel tired, slower brain waves dominate.
 Sound meditation using Singing Bowls works on a scientific concept of Brain Entrainment, which states that listening to certain frequencies can change our brainwave states. The rich blend of harmonic overtones produced from the singing bowls helps us to first sink into the alpha state, then the mind lingers between alpha, theta and delta brain waves enabling deep relaxation and heightened perception.
 
+![sound meditation](/assets/images/soundmeditation.png "Sound Meditation")
+
 ### ADVANTAGES OF SOUND MEDITATION
 
 Sound meditation has numerous advantages. The more prominent advantages are:

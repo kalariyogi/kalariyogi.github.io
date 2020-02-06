@@ -6,3 +6,5 @@ collections:
     output: true
   practices:
     output: true
+  offerings:
+    output: true
