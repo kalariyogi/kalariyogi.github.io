@@ -1,7 +1,7 @@
 ---
 layout: practice
 title: KalariYoga
-mainImage: Kalari.jpg
+mainImage: Kalari.webp
 ---
 
 Kalari-yoga uses the elements of Kalaripayattu (yogic martial art) and classical hatha yoga.

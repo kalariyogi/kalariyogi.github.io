@@ -1,10 +1,10 @@
 carousel:
-  - src : carosel-image-2.jpeg
+  - src : carosel-image-2.webp
     heading : Yoga1
     description : this is yoga1
-  - src : carosel-image-3.JPG
+  - src : carosel-image-3.webp
     heading : Yoga2
     description : this is yoga2
-  - src : carosel-image-4.jpeg
+  - src : carosel-image-4.webp
     heading : Yoga3
     description : this is yoga3

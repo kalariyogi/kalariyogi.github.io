@@ -1,7 +1,7 @@
 ---
 layout: practice
 title: Acroyoga
-mainImage: acroyoga.jpeg
+mainImage: acroyoga.webp
 ---
 As a yoga practitioner, Shriram was one that always preferred sticking to traditional and authentic style of practice. However, when an opportunity to practice and eventually learn acroyoga presented itself to him, he was amazed at how much presence of mind and awareness it builds.
 

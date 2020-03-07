@@ -1,7 +1,7 @@
 ---
 layout: practice
 title: About Me
-mainImage: Aboutme.JPG
+mainImage: Aboutme.webp
 ---
 
 Shriram Vakade a.k.a Kalariyogi Shriram has been teaching yoga from the past 4 years and has been a dedicated yoga practitioner from the age of 21
