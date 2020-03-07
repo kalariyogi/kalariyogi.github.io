@@ -6,7 +6,7 @@
         </div>
         <div>
             {% for socialMedia in site.data.socialMedia.socialMedia%}
-            <a class="btn btn-social-icon btn-{{socialMedia.name}}">
+            <a href="{{socialMedia.link}}" class="btn btn-social-icon btn-{{socialMedia.name}}">
                 <span class="fa fa-{{socialMedia.name}}"></span>
             </a>
             {% endfor %}               
