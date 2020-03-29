@@ -1,7 +1,4 @@
 navItems:
-  - type : link
-    name : About
-    href : /about
   - type : dropdown
     name : My Practices
     href : /practices

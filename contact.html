@@ -21,7 +21,7 @@ layout: default
                         clip-rule="evenodd" />
                     <path
                         d="M6.752 8.932l.432-.252-.504-.864-.432.252.504.864zm-6 3.5l6-3.5-.504-.864-6 3.5.504.864zm8.496-3.5l-.432-.252.504-.864.432.252-.504.864zm6 3.5l-6-3.5.504-.864 6 3.5-.504.864z" />
-                </svg><span style="padding-left: 5px">kalariyogi@gmail.com</span></p>
+                </svg><span style="padding-left: 5px">{{site.data.contact.email}}</span></p>
             {% for socialMedia in site.data.socialMedia.socialMedia%}
             <a href="{{socialMedia.link}}" class="btn btn-social-icon btn-{{socialMedia.name}}">
                 <span class="fa fa-{{socialMedia.name}}"></span>
