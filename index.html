@@ -59,7 +59,7 @@ title: Kalariyogi
                 {% for workshop in site.workshops %}
                 <div class="col mb-4">
                     <div class="card workshop-card">
-                        <img src="{{workshop.image | prepend: site.imageurl | prepend: site.baseurl}}.png"
+                        <img src="{{workshop.image | prepend: site.imageurl | prepend: site.baseurl}}"
                             class="card-img-top" alt="{{workshop.image}}">
                         <div class="card-body">
                             <h4 class="card-title">{{ workshop.name }}</h4>
