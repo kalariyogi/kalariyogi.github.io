@@ -1,16 +1,16 @@
 <footer class="footer fixed-bottom">
 
-    <div class="d-flex justify-content-around">            
+    <div class="d-flex justify-content-around">             
         <div class="row justify-content-center align-self-center">
-            <p class="pl-4 m-0">© 2020 {{site.name}}</p>
+            <p class="pt-1 pr-2" id="developerSignature">Designed by <a id="developerWebsiteLink" href="https://nikhilpereira1793.github.io./">Nikhil Pereira</a></p>
+            <p class="m-0">© 2020 {{site.name}}</p>
         </div>
         <div>
             {% for socialMedia in site.data.socialMedia.socialMedia%}
             <a href="{{socialMedia.link}}" class="btn btn-social-icon btn-{{socialMedia.name}}">
                 <span class="fa fa-{{socialMedia.name}}"></span>
             </a>
-            {% endfor %}               
+            {% endfor %}            
         </div>
     </div>
-    
 </footer>

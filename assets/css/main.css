@@ -84,3 +84,13 @@ img[title='Sound Meditation']{
 .s-link{
     color: #cc9419
 }
+#developerSignature{
+    font-size: x-small;
+    margin-bottom: 0px;
+    float: right;
+    color: #be8d7d;
+    background-color: #b1222200;
+}
+#developerWebsiteLink{
+    color: #be8d7d;
+}
