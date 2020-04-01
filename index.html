@@ -16,7 +16,7 @@ title: Kalariyogi
                 <div class="carousel-item">
                     <div class="d-flex justify-content-center">
                         <img class="d-block s-carosel-img"
-                            src="{{image.src | prepend: site.imageurl | prepend: site.baseurl}}">
+                            src="{{image.src | prepend : 'homepage/' | prepend: site.imageurl | prepend: site.baseurl}}" alt="{{image.alt}}">
                         <div class="carousel-caption d-none d-md-block">
                             <h1>{{image.heading}}</h1>
                             <p>{{image.description}}</p>
@@ -59,7 +59,7 @@ title: Kalariyogi
                 {% for workshop in site.workshops %}
                 <div class="col mb-4">
                     <div class="card workshop-card">
-                        <img src="{{workshop.image | prepend: site.imageurl | prepend: site.baseurl}}"
+                        <img src="{{workshop.image | prepend: 'workshops/' | prepend: site.imageurl | prepend: site.baseurl}}"
                             class="card-img-top" alt="{{workshop.image}}">
                         <div class="card-body">
                             <h4 class="card-title">{{ workshop.name }}</h4>

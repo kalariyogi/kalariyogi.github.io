@@ -4,7 +4,7 @@ title: KalariYoga
 mainImage: Kalari.webp
 ---
 
-Kalari-yoga uses the elements of Kalaripayattu (yogic martial art) and classical hatha yoga.
+**Kalari-yoga** uses the elements of Kalaripayattu (yogic martial art) and classical hatha yoga.
 Kalaripayattu is a yogic martial art that helps one channelize their energy, achieve a healthy body
 and a still mind. Hatha yoga consist a set of physical postures that are designed to align and calm
 your body, mind, and spirit.

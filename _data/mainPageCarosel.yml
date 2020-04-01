@@ -1,5 +1,6 @@
 carousel:
   - src : carosel-image-1.webp
+    alt : yoga1
     heading : Yoga1
     description : this is yoga1
   - src : carosel-image-2.webp
