@@ -9,7 +9,7 @@ Kalaripayattu - considered to be the mother of all martial arts, originates from
 
 Bodhidharama, an Indian Buddhist monk took this art form to china and taught this to the monks at the shaolin temple which later came to be established as kung fu. 
 
-Crafted in ancient South India drawing inspiration from the raw power and sinuous strength of the majestic animal forms - Lion, Tiger, Elephant, Wild Boar, Snake, and Crocodile ........ Kalaripayattu laid down the combat code to various kingdoms of southern India. Shrouded in deep mystery and mists of secrecy,Kalaripayattu was taught by the masters in total isolation, away from prying eyes. 
+Crafted in ancient outh India drawing inspiration from the raw power and sinuous strength of the majestic animal forms - Lion, Tiger, Elephant, Wild Boar, Snake, and Crocodile ........ Kalaripayattu laid down the combat code to various kingdoms of southern India. Shrouded in deep mystery and mists of secrecy,Kalaripayattu was taught by the masters in total isolation, away from prying eyes. 
 
 Following the collapse of the princely states and the advent of free India - Kalaripayattu has lost its significance as a mortal combat code. In a Phoenix-like resurrection, Kalaripayattu is today emerging in a new avatar - an ancient art form - a source of inspiration for self-expression in dance forms - both traditional and contemporary, in theatre, in fitness and in movies too.
 
